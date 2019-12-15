@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp">
+
+        <ImageView
+            android:id="@+id/img1"
+            android:src="@drawable/android"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:visibility="visible"/>
+        <ImageView
+            android:id="@+id/img2"
+            android:src="@drawable/phone"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:visibility="invisible"/>
+        <ImageView
+            android:id="@+id/img3"
+            android:src="@drawable/happy"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:visibility="invisible"/>
+        <Button
+            android:id="@+id/btnSig"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Siguiente"
+            android:layout_marginTop="250dp"
+            android:layout_gravity="center_horizontal"
+            android:visibility="visible"/>
+
+        <LinearLayout
+            android:id="@+id/linerLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:visibility="invisible">
+            <EditText
+                android:id="@+id/txtNombre"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Ingresa tu nombre"
+                android:textSize="20sp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="30dp" />
+            <EditText
+                android:id="@+id/txtPass"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Ingresa tu contraseña"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:inputType="textPassword"/>
+            <Button
+                android:id="@+id/btnGuardar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Guardar"
+                android:layout_marginTop="100dp"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+
+    </FrameLayout>
+</LinearLayout>
