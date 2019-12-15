@@ -34,6 +34,7 @@ var tag = view.tag
 ## Imagenes del proyecto calculadora
 
 ## Imagenes del proyecto IntercambioColores
+https://github.com/charlye917/Android/tree/master/Bedu/kotlin/Clase1-2/cambia_colores1.png
 
 ## Ligas importantes para mas informacion
 
