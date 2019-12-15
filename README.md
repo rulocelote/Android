@@ -1,1 +1,1 @@
-# Ejercios realizados durante el curso de Bedu
+# Ejercios y proyectos realizados en java y kotlin
