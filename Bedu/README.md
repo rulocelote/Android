@@ -10,3 +10,7 @@
     - Almacenamiento con SharePreferences y recuperar los elementos en otro activity
     - Visibilidad de un elemento
     - Uso de FrameLayout
+    
+## Clase 1-4
+    - Uso de MediaPlayer para reproducir sonidos
+    - Uso de TableLayout como contenedor
