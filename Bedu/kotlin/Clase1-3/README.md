@@ -17,13 +17,15 @@ fun cambiarImagen(view:View){
 
 ```kotlin
 val sharePreferences:SharedPreferences = applicationContext.getSharedPreferences("archivo", Context.MODE_PRIVATE)
-
+```
+```kotlin
 //Verificar si ya se guardarib los datos
 fun leerPreferencias(sharedPreferences: SharedPreferences ): Boolean {
     var nombres = sharedPreferences.getString("nombre", null)
     return nombres != null
 }
-
+```
+```kotlin
 //Funcion para guardar los datos
 fun guardar(sharedPreferences: SharedPreferences){
     var nombre = txtNombre.text.toString()
