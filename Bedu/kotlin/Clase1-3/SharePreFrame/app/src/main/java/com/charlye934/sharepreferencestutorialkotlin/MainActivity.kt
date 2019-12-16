@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         val sharePreferences:SharedPreferences = applicationContext.getSharedPreferences("archivo", Context.MODE_PRIVATE)
         if (leerPreferencias(sharePreferences)) {
-            Toast.makeText(applicationContext, "Ya iniciado", Toast.LENGTH_SHORT).show()
+            Toast.makeText(applicationContext, "Ya iniciado", Toast.LENGTH_LONG).show()
             cambiarPagina()
         } else {
             btnSig.setOnClickListener{opcSig()}

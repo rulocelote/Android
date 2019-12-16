@@ -24,7 +24,7 @@ class Main2Activity : AppCompatActivity() {
     fun borrar(view:View){
         var sharedPreferences:SharedPreferences = applicationContext.getSharedPreferences("archivo",Context.MODE_PRIVATE)
         sharedPreferences.edit().clear().commit()
-        intent = Intent(applicationContext,MainActivity::class.java)
+        val intent = Intent(applicationContext,MainActivity::class.java)
         startActivity(intent)
         Toast.makeText(applicationContext,"Se han borrado los datos",Toast.LENGTH_SHORT).show()
     }
