@@ -5,3 +5,8 @@
     - Uso de Toast para mensajes sencillos
     - Uso de When
     - Capturar textos de EditText y tags
+    
+ ## Clase 1-3
+    - Almacenamiento con SharePreferences y recuperar los elementos en otro activity
+    - Visibilidad de un elemento
+    - Uso de FrameLayout
