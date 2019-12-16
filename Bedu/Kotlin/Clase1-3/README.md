@@ -54,14 +54,14 @@ sharedPreferences.edit().clear().commit()
 
 
 ## Imagenes del proyecto PruebaFrame
-![frame1](Frame1.png)
-![frame2](Frame2.png)
+![frame1](imagenes/Frame1.png)
+![frame2](imagenes/Frame2.png)
 
 ## Imagenes del proyecto SharePreferences
-![share1](share1.png)
-![share2](share2.png)
-![share3](share3.png)
-![share4](share4.png)
+![share1](imagenes/share1.png)
+![share2](imagenes/share2.png)
+![share3](imagenes/share3.png)
+![share4](imagenes/share4.png)
 
 
 ## Ligas para mas información

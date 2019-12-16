@@ -16,7 +16,7 @@ fun ejecutaSonido(nombreAnimal: String) {
 ```
 
 ## Imagenes dle proyecot AnimalesSonidos
-![sonido](sonidos.png)
+![sonido](imagenes/sonidos.png)
 
 ## Ligas para mas informacion
 

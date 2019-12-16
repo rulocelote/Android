@@ -71,19 +71,19 @@ if(permisos(tag)){
 }
 ```
 ## Imagenes del proyecto Splash
-![splash1](splash1.png)
-![splash2](splash2.png)
-![splash3](splash3.png)
-![splash4](splash4.png)
+![splash1](imagenes/splash1.png)
+![splash2](imagenes/splash2.png)
+![splash3](imagenes/splash3.png)
+![splash4](imagenes/splash4.png)
 
 ## Imagenes del proyecto FragmentPermisos
-![frag1](frag1.png)
-![frag2](frag2.png)
-![frag3](frag3.png)
-![frag4](frag4.png)
+![frag1](imagenes/frag1.png)
+![frag2](imagenes/frag2.png)
+![frag3](imagenes/frag3.png)
+![frag4](imagenes/frag4.png)
 
 ## Ciclo de vida de un activity
-![activity](activity)
+![activity](imagenes/activity)
 Siguiendo el diagrama anterior, se puede visualizar el ciclo de vida en acción a medida que avanza el código. A continuación describiremos cada una de las devoluciones que se le realiza a una llamada:
 
 onCreate () : Llamado por el sistema operativo cuando se crea la actividad por primera vez. Aquí es donde se inicializan los elementos de la interfaz de usuario u objetos de datos. También tiene el estado savedInstanceState de la actividad que contiene su estado guardado anteriormente y puede usarlo para recrear ese estado.
@@ -101,7 +101,7 @@ onStop () : Este método se llama justo después de onPause() , cuando la activi
 *onDestroy () *: Esta es la devolución de llamada final que recibirá del sistema operativo antes de que se destruya la actividad. Puede desencadenar la destrucción de una actividad llamando a finish() , o puede ser activada por el sistema cuando se necesita recuperar la memoria. Si su actividad incluye subprocesos en segundo plano u otros recursos de larga duración, la destrucción podría provocar una pérdida de memoria si no se liberan, por lo que también debe recordar detener estos procesos aquí.
 
 ## Ciclo de vida de un Fragment
-![fragmento](fragment)
+![fragmento](imagenes/fragment)
 Un fragment( fragmento ) es un componente de Android que contiene parte del comportamiento y / o IU de una activity( actividad ). Como su nombre indica, los fragmentos no son entidades independientes, sino que están vinculados a una sola actividad. En muchos sentidos, tienen una funcionalidad similar a las actividades.
 
 Los siguientes eventos del ciclo de vida intervienen cuando se agrega un fragmento:

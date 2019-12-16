@@ -90,11 +90,11 @@ fun ejecutaSonido(nombreAnimal:String){
 ```
 
 ## Imagen Galeria con RecyclerView
-![recycler](recycler.png)
+![recycler](imagenes/recycler.png)
 
 ## Imagenes proyecto AnimalesSonidos
-![animales](animales.png)
+![animales](imagenes/animales.png)
 
 ## Imagen proyecto test
-![test](test.png)
+![test](imagenes/test.png)
 
