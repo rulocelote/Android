@@ -19,23 +19,24 @@ startActivity(intent)
 ### Mostrar mensajes con Toast
 ```kotlin
 Toast.makeText(this,result,Toast.LENGTH_SHORT).show()
+Toast.makeText(this,result,Toast.LENGTH_LONG).show()
 ```
 
-### Recuperar datos y tag 
-```xml
-android:tag="suma"
-```
+### Asignar texto, recuperar datos y tag 
 ```kotlin
 var tag = view.tag
+var etNum1_String = txtNum1.text.toString()
+var txtNum2.text = "Mostrar este texto"
 ```
-
-## Imagenes del proyecto calculadora
 
 ## Imagenes del proyecto IntercambioColores
 ![menor1](cambia_colores3.png)
 ![menor2](cambia_colores4.png)
 ![mayor1](cambia_colores1.png)
 ![mayor2](cambia_colores2.png)
+
+## Imagenes del proyecto calculadora
+![calculadora](calculadora.png)
 
 ## Ligas importantes para mas informacion
 
