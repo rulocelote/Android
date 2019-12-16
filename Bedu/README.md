@@ -14,3 +14,9 @@
 ## Clase 1-4
     - Uso de MediaPlayer para reproducir sonidos
     - Uso de TableLayout como contenedor
+    
+## Clase 1-5
+    - Uso de fragments con FrameLayout
+    - Uso de permisos
+    - Uso de variable Map
+    - Uso de splash
