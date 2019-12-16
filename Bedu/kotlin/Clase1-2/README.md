@@ -1,7 +1,5 @@
 # Uso de Intent y Toast
 
-## Ejemplos de codigo relevante en la actividad
-
 ### Ejemplo de envio de informacion e inicio de otra actividad con Intent
 
 ```kotlin
