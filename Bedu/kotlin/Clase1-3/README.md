@@ -41,6 +41,17 @@ fun guardar(sharedPreferences: SharedPreferences){
     }
 }
 ```
+```kotlin
+//Recuperar datos desde otro activity
+var sharedPreferences = applicationContext.getSharedPreferences("archivo",Context.MODE_PRIVATE)
+var nombre = sharedPreferences.getString("nombre","")
+```
+```kotlin
+//Borrar datos 
+var sharedPreferences:SharedPreferences = applicationContext.getSharedPreferences("archivo",Context.MODE_PRIVATE)
+sharedPreferences.edit().clear().commit()
+```
+
 
 ## Imagenes del proyecto PruebaFrame
 ![frame1](Frame1.png)
@@ -51,3 +62,22 @@ fun guardar(sharedPreferences: SharedPreferences){
 ![share2](share2.png)
 ![share3](share3.png)
 ![share4](share4.png)
+
+
+## Ligas para mas información
+
+### SharedPreferences
+https://developer.android.com/reference/android/content/SharedPreferences
+
+### SharedPreferences.Editor
+https://developer.android.com/reference/android/content/SharedPreferences.Editor
+
+### SharedPreferences.OnSharedPreferenceChangeListener
+https://developer.android.com/reference/android/content/SharedPreferences.OnSharedPreferenceChangeListener
+
+### FrameLayout
+https://developer.android.com/reference/android/widget/FrameLayout
+
+### FrameLayout.LayoutParams
+https://developer.android.com/reference/android/widget/FrameLayout.LayoutParams
+
