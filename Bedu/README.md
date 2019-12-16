@@ -20,3 +20,8 @@
     - Uso de permisos
     - Uso de variable Map
     - Uso de splash
+    
+## Clase 1-6
+    - Uso de scrollview
+    - Uso de Recyclerview
+    - Se modifico el programa de animales mejorando la apariencia
