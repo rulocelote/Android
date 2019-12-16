@@ -34,7 +34,10 @@ var tag = view.tag
 ## Imagenes del proyecto calculadora
 
 ## Imagenes del proyecto IntercambioColores
-![imagen1](cambia_colores1.png)
+![menor1](cambia_colores3.png)
+![menor2](cambia_colores4.png)
+![mayor1](cambia_colores1.png)
+![mayor2](cambia_colores2.png)
 
 ## Ligas importantes para mas informacion
 
