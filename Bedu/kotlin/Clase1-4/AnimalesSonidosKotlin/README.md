@@ -2,7 +2,7 @@
 
 ### Ejemplo de uso de MediaPlayer
 ```kotlin
-//Para agregar sonidos se debe crear la raw dentro de la carpeta res
+//Para agregar sonidos se debe crear la carpeta raw dentro de res
 //Funcion encargada de ejecutar el sonido del animal seleccionado
 
 var sonido: MediaPlayer? = null
