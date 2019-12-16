@@ -1,4 +1,4 @@
-# Uso de ScrollView, ReciclyerView, Icono en action bar,MediaPlayer y creacion de un test (checkbox y radiobutton)
+# Uso de ScrollView, ReciclyerView, Icono en action bar, MediaPlayer y creacion de un test (checkbox y radio button)
 
 ### Ejemplo RecyclerView
 
