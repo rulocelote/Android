@@ -1,5 +1,6 @@
 package com.charlye934.palindromox
 
+import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.EditText
@@ -13,17 +14,17 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         btnCalcula.setOnClickListener{
-            //Toast.makeText(applicationContext,"Palindromo? = " + palindromo(), Toast.LENGTH_SHORT).show()
             cambiaVocales()
             Toast.makeText(applicationContext,"Palindromo? = ${palindromo()} ", Toast.LENGTH_SHORT).show()
         }
 
     }
 
+    @SuppressLint("DefaultLocale")
     fun palindromo():Boolean{
-        var lista: String = txtPalabras.text.toString().toLowerCase().trim().replace(" ","")
+        val lista: String = txtPalabras.text.toString().toLowerCase().trim().replace(" ","")
         var dec:Int = lista.length-1
-        var inc:Int = 0
+        var inc = 0
         var res = true
 
         while (inc<dec && res){
@@ -39,7 +40,7 @@ class MainActivity : AppCompatActivity() {
 
     fun cambiaVocales(){
         var lista: String = txtPalabras.text.toString().toLowerCase()
-        var listaNueva:String = ""
+        var listaNueva = ""
         var inc:Int = lista.length-1
         var vocales = listOf('a','e','i','o','u')
         for(i in 0..inc){
