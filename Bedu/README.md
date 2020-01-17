@@ -25,3 +25,10 @@
     - Uso de scrollview
     - Uso de Recyclerview
     - Se modifico el programa de animales mejorando la apariencia
+
+## Clase 2-2
+    - Ejercicio palindromo
+
+## Clase 2-3
+    - Elementos dinamicos
+    - Ejercicios con areas
