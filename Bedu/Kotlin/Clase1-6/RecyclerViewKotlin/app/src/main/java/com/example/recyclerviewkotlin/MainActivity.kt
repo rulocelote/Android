@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
 
         var miManager = LinearLayoutManager(this)
         myRecycler.layoutManager = miManager
-        myRecycler.adapter = miAdaptador(lista)
+        myRecycler.adapter = miAdaptador(lista,this)
     }
 
 }
