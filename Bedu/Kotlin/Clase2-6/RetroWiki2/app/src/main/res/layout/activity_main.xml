@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="10dp">
+
+    <RadioGroup
+        android:id="@+id/radio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+
+        <RadioButton
+            android:id="@+id/xbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="XBOX"
+            android:tag="xbox"
+            android:checked="true"
+            android:onClick="enviar"
+            />
+
+        <RadioButton
+            android:id="@+id/wii"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="WII"
+            android:tag="wii"
+            android:onClick="enviar"
+            />
+
+        <RadioButton
+            android:id="@+id/nintendo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NINTENDO"
+            android:tag="nintendo"
+            android:onClick="enviar"
+            />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnEnviar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enviar"
+/>
+
+    <WebView
+        android:id="@+id/miWebView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>

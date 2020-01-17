@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">ProyectoExamen</string>
+    <string name="perfil_string">Perfil</string>
+    <string name="noticas_string">Noticias</string>
+    <string name="mensajes_string">Mensajes</string>
+    <string name="camara_string">Camara</string>
+
+    <string name="person_string">Carlos</string>
+    <string name="noticias">Noticias prueba</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="frase1">"Es tan corto el amor y es tan largo el olvido.\n" + "\n" + "— Pablo Neruda"</string>
+    <string name="frase2">        "Acá hay tres clases de gente: las que se matan trabajando, las que deberían trabajar y las que tendrían que matarse.\n\n -Mario Benedetti."
+</string>
+    <string name="frase3">"El que tiene imaginación, con qué facilidad saca de la nada un mundo.\n \n -Gustavo Adolfo Bécquer.",
+</string>
+    <string name="frase4">"No basta con saber, se debe también aplicar. No es suficiente querer, se debe también hacer. \n\n -Goethe.",
+</string>
+    <string name="frase5">"Puede que lo que hacemos no traiga siempre la felicidad, pero si no hacemos nada, no habrá felicidad.\n\n-Albert Camus.",
+</string>
+    <string name="frase6">"Todo fracaso es el condimento que da sabor al éxito.\n\n-Truman Capote",
+</string>
+    <string name="frase7">"Acepta los riesgos, toda la vida no es sino una oportunidad. El hombre que llega más lejos es, generalmente, el que quiere y se atreve a serlo.\n\n-Dale Carnegie.",
+</string>
+    <string name="frase8">"Daría todo lo que sé, por la mitad de lo que ignoro.\n\n-René Descartes",
+</string>
+    <string name="frase9">"Si crees totalmente en ti mismo, no habrá nada que esté fuera de tus posibilidades.\n\n-Wayne W. Dyer.")
+</string>
+    <string name="frase10"></string>
+</resources>

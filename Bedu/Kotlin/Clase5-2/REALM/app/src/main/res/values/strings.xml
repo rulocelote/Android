@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Realm</string>
+    <string name="db_name">AgendaDB</string>
+</resources>

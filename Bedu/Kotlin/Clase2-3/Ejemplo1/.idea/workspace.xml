@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f4f70260-7f46-4681-93dc-6d406d862d03" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Clase1-3/SharePreFrame/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Clase1-3/SharePreFrame/app/src/main/java/com/charlye934/sharepreferencestutorialkotlin/Main2Activity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Clase1-3/SharePreFrame/app/src/main/java/com/charlye934/sharepreferencestutorialkotlin/Main2Activity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Clase3-4/Reto32/app/src/main/java/com/example/reto3/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Clase3-4/Reto32/app/src/main/java/com/example/reto3/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Clase3-4/Reto32/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Clase3-4/Reto32/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../ProyectoBA" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../ProyectoBA" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Proyectos/Firebase/MenuComidaKotlin/app/src/main/java/com/example/menucomidakotlin/ComidaListActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../Proyectos/Firebase/MenuComidaKotlin/app/src/main/java/com/example/menucomidakotlin/ComidaListActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Proyectos/Firebase/MenuComidaKotlin/app/src/main/java/com/example/menucomidakotlin/dummy/DummyContent.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../Proyectos/Firebase/MenuComidaKotlin/app/src/main/java/com/example/menucomidakotlin/dummy/DummyContent.kt" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Nexus_5X_API_29_x86" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Interface" />
+        <option value="Kotlin File" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="960" />
+    <option name="y" value="27" />
+    <option name="width" value="960" />
+    <option name="height" value="1053" />
+  </component>
+  <component name="ProjectId" id="1UDU212NctyaKeKJSWsKvdFgbhs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Ejemplo1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ejemplo1" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="Ejemplo1" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="MainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.MainKt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f4f70260-7f46-4681-93dc-6d406d862d03" name="Default Changelist" comment="" />
+      <created>1574890448041</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574890448041</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.32977587" />
+      <window_info id="Structure" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="Resources Explorer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Captures" order="0" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="TODO" />
+      <window_info anchor="bottom" id="Run" />
+      <window_info anchor="bottom" id="Debug" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Flutter Inspector" />
+      <window_info anchor="right" id="Flutter Outline" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Flutter Performance" />
+    </layout>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="732" y="272" width="445" height="568" key="#com.intellij.ide.util.MemberChooser" timestamp="1574890841035">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="732" y="272" width="445" height="568" key="#com.intellij.ide.util.MemberChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1574890841035" />
+    <state x="738" y="300" width="424" height="519" key="FileChooserDialogImpl" timestamp="1574976335111">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="738" y="300" width="424" height="519" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1574976335111" />
+    <state width="1874" height="280" key="GridCell.Tab.0.bottom" timestamp="1574902616466">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="280" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1574902616466" />
+    <state width="1874" height="280" key="GridCell.Tab.0.center" timestamp="1574902616466">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="280" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1574902616466" />
+    <state width="1874" height="280" key="GridCell.Tab.0.left" timestamp="1574902616465">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="280" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1574902616465" />
+    <state width="1874" height="280" key="GridCell.Tab.0.right" timestamp="1574902616466">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="280" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1574902616466" />
+    <state x="614" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1574976286649">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="614" y="381" key="com.intellij.ide.util.TipDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1574976286649" />
+    <state x="269" y="130" width="1372" height="853" key="new project wizard" timestamp="1574976339881">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="269" y="130" width="1372" height="853" key="new project wizard/0.27.1920.1053@0.27.1920.1053" timestamp="1574976339881" />
+  </component>
+</project>

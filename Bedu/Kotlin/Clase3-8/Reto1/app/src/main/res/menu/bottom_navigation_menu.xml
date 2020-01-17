@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/pending_notes"
+        android:title="@string/bn_pending_notes"
+        android:icon="@drawable/ic_note"/>
+    <item
+        android:id="@+id/completed_notes"
+        android:title="@string/bn_completed_notes"
+        android:icon="@drawable/ic_completed"/>
+</menu>

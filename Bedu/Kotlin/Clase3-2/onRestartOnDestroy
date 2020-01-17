@@ -1,0 +1,18 @@
+onRestart(): Indica que la actividad va a volver a ser representada después de haber pasado por onStop().
+
+onDestroy(): Se llama a onDestroy() antes de que finalice la actividad. El sistema invoca esta devolución de llamada por los siguientes motivos:
+
+La actividad está terminando (debido a que el usuario la descarta por completo o a que se llama a finish()).
+
+Cuando la actividad pase al estado Destroyed, cualquier componente que priorice el ciclo de vida vinculado al de la actividad recibirá el evento ON_DESTROY. Aquí es donde los componentes del ciclo de vida pueden recuperar cualquier elemento que se necesite antes de que finalice el objeto Activity.
+
+Puedes diferenciar estos dos casos con el método isFinishing().
+
+Si la actividad está terminando, onDestroy() es la devolución de llamada del ciclo de vida final que recibe la actividad. Si se llama a onDestroy() como resultado de un cambio de configuración, el sistema crea inmediatamente una nueva instancia de actividad y luego llama a onCreate() en esa nueva instancia en la nueva configuración.
+
+Ojo si hay muy poca memoria, es posible que la actividad se destruya sin llamar a este método.
+
+La devolución de llamada onDestroy() debe liberar todos los recursos que aún no han sido liberados por devoluciones de llamada anteriores, como onStop().
+
+
+

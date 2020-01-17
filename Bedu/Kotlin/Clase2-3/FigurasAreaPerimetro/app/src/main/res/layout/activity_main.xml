@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp">
+
+        <RadioButton
+            android:id="@+id/circulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/circulo"
+            android:tag="@string/circulo"
+            android:onClick="calcula"/>
+        <RadioButton
+            android:id="@+id/rectangulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rectangulo"
+            android:tag="@string/rectangulo"
+            android:onClick="calcula"/>
+
+        <RadioButton
+            android:id="@+id/triangulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/triangulo"
+            android:tag="@string/triangulo"
+            android:onClick="calcula"/>
+    </RadioGroup>
+
+    <LinearLayout
+        android:id="@+id/contenedor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+    </LinearLayout>
+</LinearLayout>
