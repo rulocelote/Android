@@ -42,7 +42,7 @@ myRecycler.layoutManager = miManager
 myRecycler.adapter = miAdaptador(lista,this)
 ```
 
-![recyclerview](imagenes/RecyclerView.png)
+![recyclerview](Imagenes/RecyclerView.png)
 ### Ejemplo de ScrollView
 
 ```kotlin
@@ -50,8 +50,8 @@ myRecycler.adapter = miAdaptador(lista,this)
 supportActionBar!!.setDisplayShowHomeEnabled(true)
 supportActionBar!!.setIcon(R.mipmap.ic_launcher_foreground)
 ```
-![scrollview](imagenes/ScrollView.png)
+![scrollview](Imagenes/ScrollView.png)
 
 ### Ejemplo de CheckBox y RadioButtons
-![check](imagenes/RadioButtons.png)
+![check](Imagenes/RadioButtons.png)
 En este proyecto se pone a prueba el uso de radiogroups, radiobutons y checkbox
