@@ -7,8 +7,8 @@ import android.widget.LinearLayout.LayoutParams
 import kotlinx.android.synthetic.main.activity_main.*
 
 open class ElementosInteractivos(var context:Context){
-    val params = LinearLayout.LayoutParams(LayoutParams.WRAP_CONTENT,LayoutParams.MATCH_PARENT)
-    val paramsImage = LinearLayout.LayoutParams(500,500)
+    val params = LayoutParams(LayoutParams.WRAP_CONTENT,LayoutParams.MATCH_PARENT)
+    val paramsImage = LayoutParams(500,500)
 
     fun imagen(tipo:Int):ImageView{
         val img = ImageView(context)

@@ -1,5 +1,9 @@
-# Ejercicio Palindromo
+# Ejercicio Areas
 
-### Ejercicio que cambia las vales por x y determina si la palabra es un palindromo
+### Ejercicio que determina el area o perimetro de figuras
 
-![palindromo](imagenes/palindromo.png)
+![area](Imagenes/area1.png)
+![area](Imagenes/area2.png)
+![area](Imagenes/area3.png)
+
+
