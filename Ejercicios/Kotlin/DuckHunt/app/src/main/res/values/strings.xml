@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DuckHunt</string>
+
+    <!--TEXTO PARA ACTIVITY_LOGIN-->
+    <string name="et_nick_name">Ingrese su nickname</string>
+    <string name="btn_iniciar_juego">Iniciar juego</string>
+
+    <!--TEXTO LOGINACTIVITY-->
+    <string name="nombre_obligatorio">El nombre de usuario es obligatorio</string>
+    <string name="nombre_min_caracteres">El nombre debe tener al menos 3 caracteres</string>
+</resources>

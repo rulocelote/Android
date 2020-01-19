@@ -34,9 +34,9 @@ class MainActivity : AppCompatActivity() {
                 contador++
             }
         }
-        Toast.makeText(this,"Numero mayor = ${valorDouble.max()}",Toast.LENGTH_SHORT).show()
-        Toast.makeText(this,"Numero menor = ${valorDouble.min()}",Toast.LENGTH_SHORT).show()
-        Toast.makeText(this,"Suma Diagonal = $resultado",Toast.LENGTH_SHORT).show()
+        Toast.makeText(this,"Numero mayor = ${valorDouble.max()}",Toast.LENGTH_LONG).show()
+        Toast.makeText(this,"Numero menor = ${valorDouble.min()}",Toast.LENGTH_LONG).show()
+        Toast.makeText(this,"Suma Diagonal = $resultado",Toast.LENGTH_LONG).show()
     }
 
     fun calcular(view: View) {
