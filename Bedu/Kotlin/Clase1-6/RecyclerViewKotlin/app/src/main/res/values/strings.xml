@@ -1,3 +1,25 @@
 <resources>
     <string name="app_name">RecyclerViewKotlin</string>
+
+    <!--NOMBRES-->
+    <string name="nombre_uno">Bart</string>
+    <string name="nombre_dos">Homero</string>
+    <string name="nombre_tres">Burns</string>
+    <string name="nombre_cuatro">Flanders</string>
+    <string name="nombre_cinco">Crusty</string>
+    <string name="nombre_seis">Lisa</string>
+    <string name="nombre_siete">Magi</string>
+    <string name="nombre_ocho">March</string>
+    <string name="nombre_nueve">Milhouse</string>
+
+    <string name="frase_uno">Es tan corto el amor y es tan largo el olvido.\n + \n + — Pablo Neruda.</string>
+    <string name="frase_dos">El que tiene imaginación, con qué facilidad saca de la nada un mundo.\n \n -Gustavo Adolfo Bécquer.</string>
+    <string name="frase_tres">No basta con saber, se debe también aplicar. No es suficiente querer, se debe también hacer. \n\n -Goethe.</string>
+    <string name="frase_cuatro">Puede que lo que hacemos no traiga siempre la felicidad, pero si no hacemos nada, no habrá felicidad.\n\n-Albert Camus.</string>
+    <string name="frase_cinco">Acá hay tres clases de gente: las que se matan trabajando, las que deberían trabajar y las que tendrían que matarse.\n\n -Mario Benedetti.</string>
+    <string name="frase_seis">Todo fracaso es el condimento que da sabor al éxito.\n\n-Truman Capote</string>
+    <string name="frase_siete">Acepta los riesgos, toda la vida no es sino una oportunidad. El hombre que llega más lejos es, generalmente, el que quiere y se atreve a serlo.\n\n-Dale Carnegie.</string>
+    <string name="frase_ocho">Daría todo lo que sé, por la mitad de lo que ignoro.\n\n-René Descartes</string>
+    <string name="frase_nueve">Si crees totalmente en ti mismo, no habrá nada que esté fuera de tus posibilidades.\n\n-Wayne W. Dyer.</string>
+
 </resources>

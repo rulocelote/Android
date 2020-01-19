@@ -21,21 +21,29 @@ class miAdaptador(var listaCuadros: ArrayList<Cuadros>,val context:Context):Recy
     }
 
     override fun onBindViewHolder(holder: miViewHolder, position: Int) {
-        val item = listaCuadros.get(position)
+        holder.nombre.text = listaCuadros[position].nombre
+        holder.descripcion.text = listaCuadros[position].descripcion
+        holder.imagen.setImageResource(listaCuadros[position].imagen)
+        holder.foto.setImageResource(listaCuadros[position].foto)
         holder.pad.setOnClickListener { Toast.makeText(context,holder.pad.idDescripcion.text,Toast.LENGTH_SHORT).show() }
-        holder.enlazar(item)
+        //val item = listaCuadros.get(position)
+        //holder.enlazar(item)
     }
 
     class miViewHolder(itemView: View):RecyclerView.ViewHolder(itemView) {
         val pad = itemView.padre
+        val nombre = itemView.idNombre
+        val descripcion = itemView.idDescripcion
+        val imagen = itemView.idImagen
+        val foto = itemView.idFoto
 
-        fun enlazar(cuadros: Cuadros){
+        /*fun enlazar(cuadros: Cuadros){
             with(itemView){
                 idNombre.text = cuadros.nombre
                 idDescripcion.text = cuadros.descripcion
                 idImagen.setImageResource(cuadros.imagen)
                 idFoto.setImageResource(cuadros.foto)
             }
-        }
+        }*/
     }
 }

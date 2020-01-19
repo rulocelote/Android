@@ -3,7 +3,7 @@
 
 ```kotlin
 //ADAPTER
-class miAdaptador(var listaCuadros: ArrayList<Cuadros>,val context:Context:RecyclerView.Adapter<miAdaptador.miViewHolder>(){
+class miAdaptador(var listaCuadros: ArrayList<Cuadros>,val context:Context):RecyclerView.Adapter<miAdaptador.miViewHolder>(){
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): miViewHolder {
         var vista = LayoutInflater.from(parent.context).inflate(R.layout.item_list,parent,false)
@@ -15,22 +15,20 @@ class miAdaptador(var listaCuadros: ArrayList<Cuadros>,val context:Context:Recyc
     }
 
     override fun onBindViewHolder(holder: miViewHolder, position: Int) {
-        val item = listaCuadros.get(position)
-        holder.pad.setOnClickListener { Toast.makeText(context,holder.pad.idDescripcion.text,Toast.LENGTH_SHORT).show() }
-        holder.enlazar(item)
+        holder.nombre.text = listaCuadros[position].nombre
+        holder.descripcion.text = listaCuadros[position].descripcion
+        holder.imagen.setImageResource(listaCuadros[position].imagen)
+        holder.foto.setImageResource(listaCuadros[position].foto)
+        holder.pad.setOnClickListener { Toast.makeText(context,holder.pad.idDescripcion.text,Toast.LENGTH_SHORT).show() 
+        }
     }
 
     class miViewHolder(itemView: View):RecyclerView.ViewHolder(itemView) {
         val pad = itemView.padre
-
-        fun enlazar(cuadros: Cuadros){
-            with(itemView){
-                idNombre.text = cuadros.nombre
-                idDescripcion.text = cuadros.descripcion
-                idImagen.setImageResource(cuadros.imagen)
-                idFoto.setImageResource(cuadros.foto)
-            }
-        }
+        val nombre = itemView.idNombre
+        val descripcion = itemView.idDescripcion
+        val imagen = itemView.idImagen
+        val foto = itemView.idFoto
     }
 }
 ```
@@ -42,7 +40,7 @@ myRecycler.layoutManager = miManager
 myRecycler.adapter = miAdaptador(lista,this)
 ```
 
-![recyclerview](Imagenes/RecyclerView.png)
+![recyclerview](Imagenes/recycler.gif)
 ### Ejemplo de ScrollView
 
 ```kotlin
