@@ -1,0 +1,94 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Ducoing</string>
+    <string name="lbl_loading">Loading…</string>
+
+    <string name="numero_empleado">Número empleado</string>
+    <string name="password">Password</string>
+    <string name="entrar">Entrar</string>
+    <string name="cambiar">Cambiar</string>
+    <string name="singIn">Sign in</string>
+    <string name="sing_up">Sign up</string>
+    <string name="registro">Registrar</string>
+    <string name="pass_olvidado">¿Olvidaste tu contraseña?</string>
+    <string name="recuperar_paas">Recuperar contraseña</string>
+    <!--ALERT DIALOG PARA CAMPOS DE REPORTE REGISTRO-->
+    <string name="tiet_ReporteRegDescription">Escribe la descripción del reporte</string>
+
+
+    <!--ALERT DIALOG PARA CAMPOS DE REGISTRO-->
+    <string name="tiet_RegNom">Nombre(s)</string>
+    <string name="tiet_RegApPaterno">Apellido paterno</string>
+    <string name="tiet_RegApMaterno">Apellido materno</string>
+    <string name="tiet_RegTelefono">Teléfono</string>
+    <string name="tiet_RegNumEmpleado"> Número de Empleado</string>
+    <string name="tiet_RegCorreo">Correo</string>
+    <string name="tiet_RegFechaNac">Fecha de Nacimiento</string>
+    <string name="tiet_RegFechaNacGuia">Fecha de Nacimiento</string>
+    <string name="tiet_RegPass">Contraseña</string>
+    <string name="tiet_RegConfirmPass">Confirmar contraseña</string>
+    <string name="btn_registrar">Registrar</string>
+    <string name="tiet_Nueva_contrasena">Nueva contraseña</string>
+
+    <!--TEXTO PARA LOS BOTONES DE NAVEGACION-->
+    <string name="main_navigation_button_perfil">Perfil</string>
+    <string name="main_navigation_button_avisos">Avisos</string>
+    <string name="main_navigation_button_reporte">Reporte</string>
+    <string name="cerrar_sesion">Cerrar sesión</string>
+
+
+    <string name="error_password">La contraseña debe contener entre 8 y 16 caracteres, al menos un dígito, una minúscula, una mayúscula y un símbolo</string>
+
+    <!--TEXTO PARA ALERT DIALOG LOGIN-->
+    <string name="title_alert_conexion_fail">Error de conexión</string>
+    <string name="title_alert_login_id_fail">No se encuentra la cuenta</string>
+    <string name="title_alert_login_pass_fail">Error de contraseña</string>
+    <string name="error_conexion">Se produjo un problema de comunicación con los servidores.\nVuelva a intentelo más tarde</string>
+    <string name="btn_aceptar">Aceptar</string>
+    <string name="title_alert_cambio_pass">Cambio de contraseña</string>
+
+    <string name="btn_reporte"> Reportar </string>
+
+    <!--TEXTOS PARA ALERTDIALOG REGISTRO-->
+    <string name="title_alert_registro_fail">Error al registrar</string>
+    <string name="title_alert_registro_success">Registro exitoso</string>
+    <string name="confirmacion">Confirmación</string>
+    <string name="message_alert_registro_send_data">Sus datos serán enviados\n¿Desea continuar?</string>
+
+
+    <!--TEXTOS PARA ALERTDIALOG ASISTENCIA-->
+    <string name="title_alert_assistance">Registro de asistencia</string>
+    <string name="message_alert_assistance">¿Desea registrar su asistencia?</string>
+    <string name="btn_alert_positive_assistance">Registrar</string>
+    <string name="btn_alert_neutral_assistance">Cancelar</string>
+
+    <string name="title_alert_asistencia">Asistencia</string>
+    <string name="message_alert_not_asistencia">No cuenta con asistencia registrada</string>
+
+    <!--TEXTOS PARA ALERTDIALOG EXIT APP-->
+    <string name="title_alert_exit_app">Cerrar sesión</string>
+    <string name="message_alert_exit_app">¿Seguro que desea cerrar sesión?</string>
+    <string name="btn_alert_positive_exit">Cerrar sesión</string>
+    <string name="btn_cancelar">Cancelar</string>
+    <string name="error_pass_no_match">Las contraseñas no coinciden</string>
+
+    <!--TEXTOS PARA ASISTENCIA-->
+    <string name="sin_fecha_asistencia">Fecha: —/—/—</string>
+    <string name="sin_hora_asistencia">Hora: —:—</string>
+    <string name="sin_asistencia">No cuenta con asistencia registrada</string>
+    <string name="retardo">Tienes retardo</string>
+
+    <string name="title_alert_error_cambiar_contrasena">Error al cambiar al contraseña</string>
+
+    <string name="fecha_asistencia">Fecha: %1$s</string>
+    <string name="hora_asistencia">Hora: %1$s</string>
+
+    <string name="sin_permisos">La aplicacion no cuenta con los permisos necesarios</string>
+    <string name="correo_no_valido">Correo no valido</string>
+    <string name="long_campos">El campo debe contener %1$d caracteres</string>
+
+    <!--TEXTO PARA ALERT DIALOG DATOS FALTANTES-->
+    <string name="title_alert_dialog_reportes_vacios">Agregue una descripción</string>
+    <string name="mensaje_alert_reportes_vacios">Los campos de texto no pueden estar vacíos</string>
+
+    <string name="agregar_reporte">"Agregar Reporte"</string>
+</resources>

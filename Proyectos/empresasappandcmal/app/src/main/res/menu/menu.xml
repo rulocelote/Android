@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="perfil"
+        android:id="@+id/bottomNavigationPerfilMenuId"
+        android:icon="@drawable/ic_person_black_24dp" />
+    <item android:title="notificacion"
+        android:id="@+id/bottomNavigationNotificacionesMenuId"
+        android:icon="@drawable/ic_notifications_active_black_24dp"/>
+    <item android:title="reportar"
+        android:id="@+id/bottomNavigationReportarMenuId"
+        android:icon="@drawable/ic_reportar"/>
+</menu>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/spinner_categoria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_edit_text_36_dp"
+        android:layout_marginRight="@dimen/margin_edit_text_16_dp"
+        android:layout_marginLeft="@dimen/margin_edit_text_16_dp"
+        android:layout_marginBottom="@dimen/margin_edit_text_16_dp"
+        style="@style/spinner_style"
+        />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_edit_text_8_dp"
+        android:layout_marginRight="@dimen/margin_edit_text_16_dp"
+        android:layout_marginLeft="@dimen/margin_edit_text_16_dp"
+        android:layout_marginBottom="@dimen/margin_edit_text_36_dp"
+        android:hint="@string/tiet_ReporteRegDescription"
+        android:gravity="top|left"
+        app:endIconMode="clear_text"
+        app:startIconCheckable="true"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_descripcionReporte"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:gravity="top|left"
+            android:justificationMode="inter_word"
+            android:padding="10dp"
+            android:inputType="textMultiLine"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_reporte"
+        style="@style/ButtonTheme"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="@string/btn_reporte"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        app:cornerRadius="@dimen/radius_all_buttons"
+        app:rippleColor="@color/colorGray" />
+
+
+</LinearLayout>

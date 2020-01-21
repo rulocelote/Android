@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_perfil"
+        android:icon="@drawable/ic_person"
+        android:title="@string/main_navigation_button_perfil"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_noticias"
+        android:icon="@drawable/ic_notifications"
+        android:title="@string/main_navigation_button_avisos" />
+    <item
+        android:id="@+id/action_ayuda"
+        android:icon="@drawable/ic_reporte"
+        android:title="@string/main_navigation_button_reporte" />
+</menu>

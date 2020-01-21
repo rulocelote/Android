@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.pass_olvidado.OlvidoPassActivity"
+    android:background="@color/colorGris">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtRecuperarPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Titles"
+            android:textSize="28sp"
+            android:layout_marginBottom="20dp"
+            android:paddingBottom="20dp"
+            android:text="@string/recuperar_paas" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilNumEmpRC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_edit_text_24_dp"
+            android:layout_marginRight="@dimen/margin_edit_text_24_dp"
+            android:layout_marginBottom="8dp"
+            android:hint="@string/tiet_RegNumEmpleado"
+            app:endIconMode="clear_text"
+            app:startIconCheckable="true"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etNumEmpleadoRC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="6"
+                android:drawableLeft="@drawable/ic_assignment"
+                android:drawablePadding="10dp"
+                android:digits="0123456789"
+                android:inputType="numberDecimal"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilCorreoRC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_email_black_24dp"
+            android:drawablePadding="10dp"
+            android:layout_marginLeft="@dimen/margin_edit_text_24_dp"
+            android:layout_marginRight="@dimen/margin_edit_text_24_dp"
+            android:layout_marginBottom="8dp"
+            android:hint="@string/tiet_RegCorreo"
+            app:endIconMode="clear_text"
+            app:startIconCheckable="true"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etCorreoRC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_email_black_24dp"
+                android:drawablePadding="10dp"
+                android:inputType="textWebEmailAddress"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilPassRC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_edit_text_24_dp"
+            android:layout_marginRight="@dimen/margin_edit_text_24_dp"
+            android:layout_marginBottom="8dp"
+            android:hint="@string/tiet_Nueva_contrasena"
+            app:endIconMode="password_toggle"
+            app:startIconCheckable="true"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etPassRC"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:drawableLeft="@drawable/ic_vpn_key_black_24dp"
+                android:drawablePadding="10dp"
+                android:inputType="textPassword"
+                app:endIconMode="password_toggle" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilPassConfirmarRC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_edit_text_24_dp"
+            android:layout_marginRight="@dimen/margin_edit_text_24_dp"
+            android:layout_marginBottom="8dp"
+            android:hint="@string/tiet_RegConfirmPass"
+            app:endIconMode="password_toggle"
+            app:startIconCheckable="true"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etPassConfirmarRC"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:drawableLeft="@drawable/ic_vpn_key_black_24dp"
+                android:drawablePadding="10dp"
+                android:inputType="textPassword"
+                app:endIconMode="password_toggle" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnCambiarRC"
+            style="@style/ButtonTheme"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:backgroundTint="@android:color/darker_gray"
+            android:elevation="10dp"
+            android:enabled="false"
+            android:text="@string/cambiar"
+            android:layout_marginTop="20dp"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            app:cornerRadius="@dimen/radius_all_buttons"
+            app:rippleColor="@color/colorGray" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_edit_text_8_dp">8dp</dimen>
+    <dimen name="radius_all_buttons">15dp</dimen>
+    <dimen name="margin_edit_text_24_dp">24dp</dimen>
+    <dimen name="margin_edit_text_16_dp">10dp</dimen>
+    <dimen name="margin_edit_text_36_dp">36dp</dimen>
+    <dimen name="margin_edit_text_50_dp">50dp</dimen>
+    <dimen name="margin_edit_text_350_dp">350dp</dimen>
+</resources>
