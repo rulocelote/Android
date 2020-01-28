@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">sharePreferencesTutorial</string>
-    <string name="share_llave">llaveShare</string>
-    <string name="share_llave_name">nombreShare</string>
-    <string name="share_llave_pass">passwordShare</string>
-</resources>

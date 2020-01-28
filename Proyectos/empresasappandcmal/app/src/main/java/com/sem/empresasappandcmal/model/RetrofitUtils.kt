@@ -8,14 +8,12 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
 object RetrofitUtils {
-    private var retrofit: Retrofit = Retrofit.Builder()
+    private val retrofit:Retrofit = Retrofit.Builder()
         .baseUrl(URL_BASE)
         .addConverterFactory(GsonConverterFactory.create())
         .build()
 
-    fun getRetrofit():Retrofit{
-        return retrofit
-    }
+    fun getRetrofit():Retrofit = retrofit
 }
 
 fun<T> Call<T>.onEnqueue(success: (Response<T>) -> Unit, failure: (t: Throwable?) -> Unit)   {

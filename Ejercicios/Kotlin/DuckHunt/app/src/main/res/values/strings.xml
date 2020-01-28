@@ -8,4 +8,6 @@
     <!--TEXTO LOGINACTIVITY-->
     <string name="nombre_obligatorio">El nombre de usuario es obligatorio</string>
     <string name="nombre_min_caracteres">El nombre debe tener al menos 3 caracteres</string>
+    <string name="btn_acpetar">Aceptar</string>
+    <string name="btn_salir">Salir</string>
 </resources>

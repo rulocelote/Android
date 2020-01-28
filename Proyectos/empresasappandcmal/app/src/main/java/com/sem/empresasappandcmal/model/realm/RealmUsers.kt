@@ -3,7 +3,6 @@ package com.sem.empresasappandcmal.model.realm
 import io.realm.Realm
 
 class RealmUsers(private val realm:Realm){
-
     fun crearUsuario(numEmpleado:String, nombre: String, apellido: String, foto:String){
         realm.beginTransaction()
         val user: Usuario = realm.createObject(Usuario::class.java, 1)

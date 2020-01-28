@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">almacenamiento</string>
-    <string name="shared_llave">llaveShared</string>
-    <string name="shared_llave_correo">llaveCorreo</string>
-    <string name="error_mensaje_toast"></string>
-</resources>
