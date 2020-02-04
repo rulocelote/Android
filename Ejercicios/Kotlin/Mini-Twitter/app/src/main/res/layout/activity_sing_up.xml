@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".modules.singup.view.SingUpActivity"
+    android:background="@color/colorAzul">
+
+    <ImageView
+        android:id="@+id/img_logo_login"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/ic_logo_minitwitter_white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/et_nombre_registro"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/et_nombre_signup"
+        android:layout_marginTop="40dp"
+        style="@style/EditText"
+        app:layout_constraintEnd_toEndOf="@+id/img_logo_login"
+        app:layout_constraintStart_toStartOf="@+id/img_logo_login"
+        app:layout_constraintTop_toBottomOf="@+id/img_logo_login" />
+
+    <EditText
+        android:id="@+id/et_email_registro"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/et_email_login"
+        style="@style/EditText"
+        app:layout_constraintEnd_toEndOf="@+id/et_nombre_registro"
+        app:layout_constraintStart_toStartOf="@+id/et_nombre_registro"
+        app:layout_constraintTop_toBottomOf="@+id/et_nombre_registro" />
+
+    <EditText
+        android:id="@+id/et_password_regitro"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/et_password_login"
+        style="@style/EditText"
+        app:layout_constraintEnd_toEndOf="@+id/et_email_registro"
+        app:layout_constraintStart_toStartOf="@+id/et_email_registro"
+        app:layout_constraintTop_toBottomOf="@+id/et_email_registro"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/btn_registrar_registro"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_registrar_singup"
+        style="@style/Button"
+        app:layout_constraintEnd_toEndOf="@+id/et_password_regitro"
+        app:layout_constraintStart_toStartOf="@+id/et_password_regitro"
+        app:layout_constraintTop_toBottomOf="@+id/et_password_regitro" />
+
+    <TextView
+        android:id="@+id/et_login_registro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/et_registro_login"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="@+id/btn_registrar_registro"
+        app:layout_constraintStart_toStartOf="@+id/btn_registrar_registro"
+        app:layout_constraintTop_toBottomOf="@+id/btn_registrar_registro" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

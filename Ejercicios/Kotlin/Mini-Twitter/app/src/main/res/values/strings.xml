@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">MiniTwitter</string>
+    <string name="et_email_login">Email</string>
+    <string name="et_password_login">Password</string>
+    <string name="btn_entrar_login">Entrar</string>
+    <string name="et_registro_login">Si aún no tienes cuenta, regístrate aquí.</string>
+
+    <string name="et_nombre_signup">Nombre</string>
+    <string name="btn_registrar_singup">Registrar</string>
+    <string name="et_login_singup">Si ya dispone de una cuenta, inicie sesión aquí.</string>
+
+    <string name="error_conexion_title">Error de conexion</string>
+    <string name="error_conexion_message">Problemas con la conexion.\nIntentelo mas tarde</string>
+
+    <string name="error_data_title">Error con los datos</string>
+    <string name="error_data_message">Favor de revisar los datos de acceso</string>
+
+    <string name="error_data_empty_title">Datos requeridos</string>
+    <string name="error_email_empty_message">El email es requerido</string>
+    <string name="error_password_empty_message">El password es requerido</string>
+    <string name="error_username_empty_message">El nombre de usuario es requerido</string>
+    <string name="btn_aceptar">Aceptar</string>
+    <string name="btn_cancelar">Cancelar</string>
+
+    <string name="enviar_datos_title">Enviar datos</string>
+    <string name="enviar_datos_message">¿Seguro que desea enviar estos datos?</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_like">Like</string>
+    <string name="title_perfil">Perfil</string>
+    <string name="toolbar_title_home">Inicio</string>
+</resources>

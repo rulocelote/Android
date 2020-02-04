@@ -102,6 +102,8 @@ class MainActivity : AppCompatActivity() {
             .commit()
     }
 
+
+
     private fun cerrarSesion(){
         val intent: Intent = Intent(this, LoginActivity::class.java).addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)
             mainPresenter.deleteDatabase()
