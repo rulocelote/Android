@@ -3,8 +3,10 @@ package com.example.minitwitter.retrofit.api
 import com.example.minitwitter.retrofit.api.data.request.RequestLogin
 import com.example.minitwitter.retrofit.api.data.request.RequestSignup
 import com.example.minitwitter.retrofit.api.data.response.ResponseAuth
+import com.example.minitwitter.retrofit.api.data.response.Tweet
 import retrofit2.Call
 import retrofit2.http.Body
+import retrofit2.http.GET
 import retrofit2.http.POST
 
 interface MiniTwitterService {

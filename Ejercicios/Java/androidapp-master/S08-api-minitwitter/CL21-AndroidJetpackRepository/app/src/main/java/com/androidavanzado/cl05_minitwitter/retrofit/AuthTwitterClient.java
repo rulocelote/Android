@@ -13,6 +13,8 @@ public class AuthTwitterClient {
 
     public AuthTwitterClient() {
         // Incluir en la cabecera de la petición el TOKEN que autoriza al usuario
+        //El interceptor lo usaremos para adjuntar a cada peticion la informaicon del token
+        //en la cabecera del interceptor
         OkHttpClient.Builder okHttpClientBuilder = new OkHttpClient.Builder();
         okHttpClientBuilder.addInterceptor(new AuthInterceptor());
         OkHttpClient cliente = okHttpClientBuilder.build();

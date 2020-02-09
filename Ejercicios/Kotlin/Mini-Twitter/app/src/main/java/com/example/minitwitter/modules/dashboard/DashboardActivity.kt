@@ -2,23 +2,25 @@ package com.example.minitwitter.modules.dashboard
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.appcompat.app.ActionBar
-import androidx.appcompat.app.AppCompatDialogFragment
 import androidx.fragment.app.Fragment
 import com.example.minitwitter.R
+import com.example.minitwitter.modules.tweet.view.TweetFragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import kotlinx.android.synthetic.main.activity_dashboard.*
 
 class DashboardActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_dashboard)
+
+        setupNavigationBar(bottom_navigation)
     }
 
     private fun setupNavigationBar(navigationBar: BottomNavigationView){
         navigationBar.setOnNavigationItemReselectedListener {
             when(it.itemId){
-                R.id.navigation_home ->{}
+                R.id.navigation_home ->{mostrarFragment(TweetFragment())}
                 R.id.navigation_dashboard -> {}
                 R.id.navigation_perfil -> {}
             }

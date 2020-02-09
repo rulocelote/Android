@@ -5,7 +5,7 @@ import io.realm.Realm
 class RealmOperations(val realm:Realm) {
     fun crearToken(token:String){
         realm.beginTransaction()
-        val realmData = realm.createObject(RealmData::class.java,1)
+        val realmData = realm.createObject(RealmData::class.java,2)
         realmData.token = token
         realm.commitTransaction()
     }

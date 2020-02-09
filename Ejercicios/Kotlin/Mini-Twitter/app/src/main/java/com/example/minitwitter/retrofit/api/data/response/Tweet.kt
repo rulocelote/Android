@@ -3,8 +3,8 @@ package com.example.minitwitter.retrofit.api.data.response
 import com.google.gson.annotations.SerializedName
 
 data class Tweet(
-    @SerializedName("id") private var id:Int,
-    @SerializedName("mensaje") private var mensaje:String,
-    @SerializedName("likes") private var likes:List<Like>,
-    @SerializedName("user") private var user:User
+    @SerializedName("id") var id:Int,
+    @SerializedName("mensaje") var mensaje:String,
+    @SerializedName("likes") var likes:List<Like>,
+    @SerializedName("user") var user:User
 )
