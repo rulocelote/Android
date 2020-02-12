@@ -32,3 +32,7 @@
 ## Clase 2-3
     - Elementos dinamicos
     - Ejercicios con areas
+    
+## Clase 2-4
+    - Notificaciones
+    - Ejercicio cuadro magico
