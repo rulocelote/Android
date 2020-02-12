@@ -12,9 +12,9 @@
         android:supportsRtl="true"
         android:networkSecurityConfig="@xml/network_security_config"
         android:theme="@style/AppTheme">
-        <activity android:name=".modules.dashboard.DashboardActivity"></activity>
-        <activity android:name=".modules.singup.view.SingUpActivity" />
-        <activity android:name="com.example.minitwitter.modules.login.view.LoginActivity">
+        <activity android:name=".ui.DashboardActivity"></activity>
+        <activity android:name=".ui.SingUpActivity" />
+        <activity android:name="com.example.minitwitter.ui.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

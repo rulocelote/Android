@@ -1,7 +1,7 @@
 package com.example.minitwitter.retrofit.api
 
 import android.content.Context
-import com.example.minitwitter.realm.RealmUtils
+import com.example.minitwitter.utils.realm.RealmUtils
 import com.example.minitwitter.utils.Constantes
 import okhttp3.Interceptor
 import okhttp3.Response
